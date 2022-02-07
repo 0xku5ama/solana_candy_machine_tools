@@ -17,7 +17,7 @@ function sleep(ms) {
 async function bot() {
     while (true) {
         try {
-            let button = document.querySelector('.me-btn'); // Magic eden css selector to select mint button
+            let button = document.querySelector('.PlainButton_primary__34OCV'); // Magic eden css selector to select mint button
             button.click();
             await sleep(100); // Spam every 0.1s, spamming too fast can cause browser to hang
             console.log("Mint button clicked");
