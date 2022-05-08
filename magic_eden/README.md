@@ -23,3 +23,9 @@ Last updated Jan 2022
   - Prepare the request in advance, except the key parameters that are time dependent
   - Host on a network that is geographically near to Magic Eden's server
   - Sent mutiple requests by using bots
+
+# Magic Eden Listing
+Last updated May 2022
+- Lightweight script to get Magic Eden listings on chain
+- Speed is much faster than ME API and faster than Coral Cube
+- Uses async to rapidly fetch blocks concurrently
